@@ -1,4 +1,4 @@
- # 🛠️ Chapter 01: Git and GitHub
+# 🛠️ Chapter 01: Git and GitHub
 
 ## 🔄 The 4 Git Statuses
 Before saving anything, Git tracks where your files stand using these four distinct states:
@@ -33,11 +33,8 @@ Use these when connecting a brand new laptop project to a fresh GitHub page:
 * `git push -u origin main` ── Pushes your code and sets the default upstream branch so you can just type `git push` in the future.
 * `git clone <repo_link>` ── Downloads an entire existing GitHub repository onto your laptop.
 
----
-
-## 🌿 4. Branching & Team Collaboration
+### 🌿 4. Branching & Team Collaboration
 Branches allow you to work on new features or take experimental notes without risking breaking the working code on your `main` branch.
-
 * `git branch` ── Lists all local branches (the one with the asterisk `*` is your active branch).
 * `git branch -M main` ── Force-renames your current primary branch to `main`.
 * `git checkout <branch_name>` ── Switches your workspace over to an existing branch.
@@ -58,36 +55,30 @@ When a feature is finished and you want to blend it back into your primary proje
 A conflict occurs when Git gets stuck because two different commits changed the exact same line of code.
 * To fix it locally, run `git merge <conflicting_branch_name>`, open the broken file in VS Code, manually select which code to keep, save, and make a fresh commit.
 
----
+### 🎒 6. Advanced Industry Secrets
 
-## 🎒 6. Advanced Industry Secrets
-
-### 🎪 The Backstage Stash
+#### 🎪 The Backstage Stash
 If you are in the middle of writing notes or code but need to instantly switch tasks without making an ugly, half-finished commit, use the stash!
 * `git stash` ── Sweeps all your current uncommitted changes into a temporary box in the backstage. Your workspace becomes completely clean.
 * `git stash pop` ── Brings your stashed changes right back out of the backstage so you can continue working.
 * `git stash clear` ── Permanently empties your stash box.
 
-### 🪵 Squashing Commits (History Clean-up)
+#### 🪵 Squashing Commits (History Clean-up)
 If you made 5 messy, tiny commits (like fixing typos) and want to clean them up into 1 single professional commit before sharing it:
 * `git rebase -i <commit_hash>` ── Opens an interactive menu of all commits up to that point.
 * Change the word `pick` to `squash` (or `s`) for the minor commits you want to blend into the main one above them.
 * *Pro-Tip:* Type `:x` (or `:wq`) and hit Enter to save and exit Vim menus if they pop up in your terminal!
 
----
+### ⏪ 7. Undoing Changes (The Safety Nets)
 
-## ⏪ 7. Undoing Changes (The Safety Nets)
-
-### 🧼 Unstaging Files
+#### 🧼 Unstaging Files
 * `git reset <file_name>` ── Safely removes a specific file from the staging area back to your working area.
 * `git reset` ── Unstages absolutely everything you just queued up.
 
-### ⏰ Rolling Back Commits
+#### ⏰ Rolling Back Commits
 * `git reset HEAD~1` ── Undoes your very last commit, keeping your actual code safe as uncommitted edits.
 * `git reset <commit_hash>` ── Rolls your project history back to a specific point in time using its unique identifier hash.
 * `git reset --hard <commit_hash>` ── 🚨 **Danger Zone:** Permanently deletes everything in your local files and online tracking history back to that specific commit hash. Use with caution!
 
----
-
-## 🍴 8. Forking Ecosystem
+### 🍴 8. Forking Ecosystem
 * **Fork:** Done completely via the GitHub website interface. It creates a complete personal "rough copy" duplicate of someone else's open-source repository under your own account. This lets you freely edit and practice with their project without altering their original "upstream" code!
