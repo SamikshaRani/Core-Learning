@@ -1,36 +1,60 @@
-# 🐍 Python Development Portfolio
-**Author:** Samiksha Rani  
-**Location:** India  
+# 🚀 Core-Learning Hub
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Welcome+to+Samiksha's+Hub!;Continuous+Learning+...;Building+and+Coding+Consistently!;" alt="Typing SVG" />
+</p>
+
+Welcome to my personal core learning repository! This workspace is dedicated to tracking my progress, organizing structured notes, and building utility scripts as I dive deep into programming languages and technologies.
 
 ---
 
-## 📁 Project Directory
+## 📂 Repository Structure
 
-### 🎯 [Goal Tracker (V2)](goal_tracker.py)
+The workspace is organized into distinct, specialized modules:
 
-A command-line tool to manage daily objectives.
-* **Status:** Interactive status updates (Done/Pending).
-* **Logic:** File handling with `datetime` stamps.
+```mermaid
+graph TD
+    Root[📁 Core-Learning] --> Java[📁 Java-Basics]
+    Root --> Python[📁 Python-Basics]
+    
+    Java --> JN[📁 raw_notes]
+    Java --> JP[📁 code_practice]
+    
+    Python --> PS[📜 Python Scripts]
 
+```
 
-### 🔐 [Secret Vault](secret_vault.py)
+### ☕ 1. Java Basics
+ * **raw_notes/**: Structured Markdown notes mapping out core theoretical concepts.
+   * 01_git_github.md — Git guides and command workflows.
+   * 02_introduction_to_programming.md — Fundamental coding building blocks.
+   * 03_flow_of_program.md — Detailed process execution and control flows with Mermaid diagrams.
+   * 04_introduction_to_java.md — JVM, JRE, JDK internal execution architecture.
+ * **code_practice/**: Hand-on executable files (like Main.java) to test compilation and runtime environments.
 
-A privacy tool using Caesar Cipher logic.
-* **Function:** Encodes and Decodes messages using a secret key.
-* **Logic:** ASCII math using `ord()` and `chr()`.
-
-
-### 🎮 [Guessing Game](guess_game.py)
-
-A logic-based number identification game.
-* **Features:** Random number generation and attempt tracking.
-
+### 🐍 2. Python Basics
+A collection of script-based projects and command-line automation tools:
+ * **goal_tracker.py** — A custom dashboard to configure, manage, and persist specific study targets and execution goals (saves to my_goals.txt).
+ * **secret_vault.py** — A secure tracker featuring clean access control logic and comprehensive inline documentation.
+ * **sys_dashboard.py** — A system health script providing quick terminal insights with interactive user exit loops.
+ * **calculator.py & guess_game.py** — Logic-building interactive terminal tools.
 
 ---
 
-## 🛠️ Technical Skillset
-* **Languages:** Python 3.10+
-* **Tools:** VS Code, Git, GitHub Terminal
-* **Core Concepts:** Data Persistence, String Manipulation, Logic Loops
+## 🛠️ Tech Stack & Tools
+
+ * **Languages:** Python 3.x, Java
+ * **Editor:** Visual Studio Code (VS Code)
+ * **Version Control:** Git & GitHub (Using structured conventional commits)
+ * **Visualization:** Mermaid.js for architectural diagrams
 
 ---
+
+## 📈 Git Commit Philosophy
+
+This repository strictly follows clear commit types to track historical changes accurately:
+ * Feat: For adding functional code capabilities or new scripts.
+ * Docs: For finalizing chapters, hyperlinking files, or extending markdown guides.
+ * Style: For moving, restructuring, or organizing directories without changing functionality.
+
+*Happy Coding! 💻*
