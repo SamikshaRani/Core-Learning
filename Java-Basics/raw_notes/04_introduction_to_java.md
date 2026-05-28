@@ -70,7 +70,7 @@ Provides the full environment to **develop** and **run** Java programs. It inclu
 An installation package that contains *only* what is necessary to **execute** pre-compiled Java programs. It consists of:
  * **Deployment Technologies** (e.g., deployment locks).
  * **User Interface Toolkits** (AWT, Swing).
- * **Integration & Base Libraries** (Math, Util, Lang, Lang, etc.).
+ * **Integration & Base Libraries** (Math, Util, Lang, etc.).
  * **JVM** (The engine that runs the code).
 
 ---

@@ -1,10 +1,9 @@
-# 🚀Flow of Program
+# 🚀 Flow of Program
 
-## 📊Flow Chart 
-* **Flowchart:** The visualistaion of our thought process or algorithm and represent them diagrammatically is aclled flowchart.
+## 📊 Flowcharts 
+* **Flowchart:** A flowchart is the visual representation of an algorithm or a thought process, mapping out the steps diagrammatically.
 
-
-### 🧩Symbols being used in a flowchart:
+### 🧩 Symbols Used in a Flowchart
 
 ```mermaid
 graph TD
@@ -13,107 +12,113 @@ graph TD
     C --> D{Condition} 
     D --> E[/Output/]
     E --> F([Stop])
+
 ```
 ---
 
-* **🟢Start/Stop:** An oval shape indicate the statring and ending points of the flow chart.
-* **📥Input/Output:** A parallelogram is used to represent input and output in flow chart.
-* **⚙️Processing:** A rectangle is used to represent process such as mathematical computation or variable assignment.
-* **🔀Condition:** A diamond shape is used to to represent conditional statement which results in true or false (YEs or No).
-* **➡️Flow direction of program:** An arrow shape is used to represent flow of the program.
+ * **🟢 Start/Stop:** An oval shape indicates the starting and ending points of a program's execution flow.
+ * **📥 Input/Output:** A parallelogram is used to represent reading inputs or printing outputs.
+ * **⚙️ Processing:** A rectangle represents processing steps, such as mathematical computations or variable assignments.
+ * **🔀 Condition:** A diamond shape represents a conditional decision point, branching the flow based on a True/False (Yes/No) result.
+ * **➡️ Flow Direction:** Arrows direct the sequence of execution through the program.
 
----
+ ---
 
-#### 💻Flowchart Examples: 
+#### 💻 Flowchart Examples
 
-1. 📝Take a name and output Hello name.
+**1. Take a name as input and output "Hello {Name}".**
 
 ```mermaid
 graph TD
     A([Start]) --> B[/Input Name/]
     B --> C[/"Output Hello {Name}"/]
     C --> D([End])
-```
----
 
-2. 💰Take input of salary. If the salary is greater than 10,000 add bonus 2000, otherwise add bonus as 1000.
+```
+
+**2. Take a salary amount as input. If the salary is greater than 10,000, add a bonus of 2,000; otherwise, add a bonus of 1,000.**
 
 ```mermaid
 graph TD
     A([Start]) --> B[/Input Salary/]
-    B --> C{"if salary is greater than Rs. 10,000"}
-    C -->|Yes| D["salary = salary + Rs. 2000"]
-    C -->|No| E["salary = salary + Rs. 1000"]
+    B --> C{"Is salary > 10,000?"}
+    C -->|Yes| D["Salary = Salary + 2,000"]
+    C -->|No| E["Salary = Salary + 1,000"]
     D --> F[/Output Salary/]
     E --> F
     F --> G([End])
+
 ```
----
 
-3. 🔢Input a number and print whether it is prime or not.
+**3. Input a number and determine whether it is a prime number or not.**
 
-```mermaid 
+```mermaid
 graph TD
     A([Start]) --> B[/Input a Number/]
-    B --> J{"number > 1"}
+    B --> J{"Number > 1?"}
 
-    J -->|Yes| C["c=2"]
-    C --> E{"c < number"}
+    J -->|Yes| C["c = 2"]
+    C --> E{"c < Number?"}
 
-    E -->|Yes| F{"number % c == 0"}
-    F -->|Yes| G[/Output Number is not prime/]
+    E -->|Yes| F{"Number % c == 0?"}
+    F -->|Yes| G[/Output: Number is not prime/]
     G --> I([End])
 
     F -->|No| D["c = c + 1"]
     D --> E
 
-    E --> |No| H[/Ouput number is prime/]
+    E -->|No| H[/Output: Number is prime/]
     H --> I
 
-    J -->|No| K[/Output number is neither prime nor composite/]
+    J -->|No| K[/Output: Neither prime nor composite/]
     K --> I
-``` 
+
+```
+
 ---
 
+## 📝 Pseudocode
 
-## 📝Pseudocode
-* It is like a rough code which represemts how the algorithm of a program workd.
-* Pseodocode does not require syntax.
+ * Pseudocode is an informal, high-level description of an algorithm's structural logic.
+ * It mimics code structure but focuses on human readability, completely omitting strict language syntax rules.
 
+### 📐 Pseudocode for Example 2 (Salary Bonus)
 
-### 📐Pseudocode of Example 2 (Salary Bonus)
-```
+```text
 Start
 
 Input Salary
-if Salary > 10000:
+If Salary > 10000 Then
     Salary = Salary + 2000
-else:
+Else
     Salary = Salary + 1000
-end if
+End If
 Output Salary
 
 Exit
+
 ```
 
-### 🔍Pseodocode of Example 3 (Prime Number Check)
-```
+### 🔍 Pseudocode for Example 3 (Prime Number Check)
+
+```text
 Start 
 
 Input num
-if num <= 1:
-    print "Neither Prime nor Composite"
+If num <= 1 Then
+    Print "Neither Prime nor Composite"
     Exit
-end if
+End If
 c = 2
-while c < num:
-    if num % c = 0:
+While c < num Do
+    If num % c == 0 Then
         Output "Not Prime"
         Exit
-    end if
+    End If
     c = c + 1
-end while
+End While
 Output "Prime"
 
 Exit
+
 ```
