@@ -7,7 +7,6 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![Java](https://img.shields.io/badge/Java-Core-orange?style=flat-square&logo=java)](https://www.java.com/)
 [![Git](https://img.shields.io/badge/Git-Version%20Control-red?style=flat-square&logo=git)](https://git-scm.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 Welcome to my personal learning repository! This workspace documents my journey through foundational programming concepts, hands-on coding practice, and utility script development. It's a structured collection of projects in **Python** and **Java**, demonstrating core programming principles and best practices.
 
@@ -17,7 +16,6 @@ Welcome to my personal learning repository! This workspace documents my journey 
 
 - [Quick Start](#quick-start)
 - [Repository Structure](#-repository-structure)
-- [Key Projects](#-key-projects)
 - [Python Projects](#-python-projects)
 - [Java Projects](#-java-projects)
 - [Skills & Learning Outcomes](#-skills--learning-outcomes)
@@ -50,9 +48,9 @@ python goal_tracker.py
 
 **Java:**
 ```bash
-cd Java-Basics
-javac YourProgram.java
-java YourProgram
+cd Java-Basics/code_practice
+javac Main.java
+java Main
 ```
 
 ---
@@ -68,22 +66,23 @@ Core-Learning/
 │   ├── sys_dashboard.py      # System health monitor
 │   ├── calculator.py         # Interactive calculator
 │   ├── guess_game.py         # Number guessing game
+│   ├── hello.py              # Hello World program
 │   └── my_goals.txt          # Persistent goal storage
 │
 ├── Java-Basics/
-│   ├── BasicPrograms.java    # Core Java fundamentals
-│   ├── OOP/                  # Object-oriented programming examples
-│   └── DataStructures/       # Collections and data structure practice
+│   └── code_practice/
+│       └── Main.java         # Java fundamentals practice
 │
-├── LICENSE                   # MIT License
 └── README.md                 # This file
 ```
 
 ---
 
-## ⭐ Key Projects
+## 🐍 Python Projects
 
-### 🎯 **Goal Tracker** (`Python-Basics/goal_tracker.py`)
+All Python projects are located in the `Python-Basics/` directory and focus on foundational concepts:
+
+### 🎯 Goal Tracker (`goal_tracker.py`)
 **What it demonstrates:**
 - File I/O operations (persistent data storage)
 - User input handling & validation
@@ -103,7 +102,7 @@ python goal_tracker.py
 
 ---
 
-### 🔐 **Secret Vault** (`Python-Basics/secret_vault.py`)
+### 🔐 Secret Vault (`secret_vault.py`)
 **What it demonstrates:**
 - Access control logic
 - Secure data management principles
@@ -123,7 +122,7 @@ python secret_vault.py
 
 ---
 
-### 📊 **System Dashboard** (`Python-Basics/sys_dashboard.py`)
+### 📊 System Dashboard (`sys_dashboard.py`)
 **What it demonstrates:**
 - System API integration
 - Real-time data retrieval
@@ -143,37 +142,60 @@ python sys_dashboard.py
 
 ---
 
-### 🎮 **Interactive Tools** (`Python-Basics/`)
-- **calculator.py**: Demonstrates arithmetic operations & control flow
-- **guess_game.py**: Shows randomization, loops, and user interaction
+### 🧮 Calculator (`calculator.py`)
+**What it demonstrates:**
+- Arithmetic operations
+- Control flow and logic
+
+**Usage:**
+```bash
+cd Python-Basics
+python calculator.py
+```
 
 ---
 
-## 🐍 Python Projects
+### 🎮 Guess Game (`guess_game.py`)
+**What it demonstrates:**
+- Loops and conditionals
+- Randomization and user interaction
 
-All Python projects are located in the `Python-Basics/` directory and focus on foundational concepts:
+**Usage:**
+```bash
+cd Python-Basics
+python guess_game.py
+```
 
-| Project | Concepts | Difficulty |
-|---------|----------|-----------|
-| Goal Tracker | File I/O, Data Structures | Beginner |
-| Secret Vault | Authentication, Exception Handling | Beginner-Intermediate |
-| System Dashboard | APIs, Real-time Data | Intermediate |
-| Calculator | Arithmetic, Control Flow | Beginner |
-| Guess Game | Loops, Randomization | Beginner |
+---
+
+### 👋 Hello World (`hello.py`)
+**What it demonstrates:**
+- Basic Python syntax
+- Print statements
+
+**Usage:**
+```bash
+cd Python-Basics
+python hello.py
+```
 
 ---
 
 ## ☕ Java Projects
 
-Java programs are located in the `Java-Basics/` directory, covering:
+Java programs are located in the `Java-Basics/code_practice/` directory.
 
-| Category | Topics |
-|----------|--------|
-| **Basic Programs** | Syntax, Data Types, Control Flow |
-| **OOP** | Classes, Objects, Inheritance, Polymorphism |
-| **Data Structures** | Arrays, Lists, Maps, Sets |
+### Basic Programs (`Main.java`)
+**Location:** `Java-Basics/code_practice/Main.java`
 
-*Note: Java projects are actively being developed. Check back for updates!*
+Starting point for Java fundamentals practice.
+
+**Usage:**
+```bash
+cd Java-Basics/code_practice
+javac Main.java
+java Main
+```
 
 ---
 
@@ -185,7 +207,7 @@ Java programs are located in the `Java-Basics/` directory, covering:
 - ✅ Functions & modularity
 - ✅ File I/O and data persistence
 - ✅ Exception handling
-- ✅ Object-oriented programming (classes, inheritance, polymorphism)
+- ✅ Object-oriented programming basics
 
 ### Tools & Workflows
 - ✅ Git version control (conventional commits)
@@ -240,12 +262,6 @@ This repository follows **conventional commits** for clear and organized history
 Built with ❤️ as part of my continuous learning journey in programming. This repository serves as both a personal knowledge base and a portfolio of foundational skills in Python and Java.
 
 **Last Updated:** August 2026
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
