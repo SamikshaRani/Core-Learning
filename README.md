@@ -1,7 +1,7 @@
 # 🚀 Core-Learning Hub
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Welcome+to+Samiksha's+Hub!;Continuous+Learning;Building+Strong+Foundations">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Welcome+to+Samiksha's+Hub!;Continuous+Learning;Building+Str[...]
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://www.python.org/)
@@ -9,7 +9,7 @@
 [![Git](https://img.shields.io/badge/Git-Version%20Control-red?style=flat-square&logo=git)](https://git-scm.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Welcome to my personal learning repository! This workspace documents my journey through foundational programming concepts, hands-on coding practice, and utility script development. It's a structured approach to mastering **Python**, **Java**, and **Git/GitHub** fundamentals.
+Welcome to my personal learning repository! This workspace documents my journey through foundational programming concepts, hands-on coding practice, and utility script development. It's a structur[...]
 
 ---
 
@@ -29,7 +29,6 @@ Welcome to my personal learning repository! This workspace documents my journey 
 
 ### Prerequisites
 - **Python 3.7+** (for Python scripts)
-- **Java JDK 11+** (for Java code)
 - **Git** (for version control)
 
 ### Clone the Repository
@@ -44,15 +43,6 @@ cd Core-Learning
 
 ```
 Core-Learning/
-│
-├── Java-Basics/
-│   ├── raw_notes/          # Comprehensive theoretical notes
-│   │   ├── 01_git_github.md
-│   │   ├── 02_introduction_to_programming.md
-│   │   ├── 03_flow_of_program.md
-│   │   └── 04_introduction_to_java.md
-│   └── code_practice/      # Executable Java practice files
-│       └── Main.java       # Compilation & runtime testing
 │
 ├── Python-Basics/
 │   ├── goal_tracker.py     # Goal management dashboard
@@ -135,16 +125,6 @@ python sys_dashboard.py
 
 ---
 
-### 📚 **Java Foundations** (`Java-Basics/`)
-- **raw_notes/**: Detailed markdown documentation covering:
-  - Git & GitHub workflows
-  - Programming fundamentals
-  - Control flow & program execution
-  - Java architecture (JVM, JRE, JDK)
-- **code_practice/**: Hands-on Java compilation and execution examples
-
----
-
 ## 🎓 Skills & Learning Outcomes
 
 ### Programming Concepts
@@ -152,7 +132,6 @@ python sys_dashboard.py
 - ✅ Control flow (loops, conditionals)
 - ✅ Functions & modularity
 - ✅ File I/O and data persistence
-- ✅ Object-oriented principles (Java intro)
 - ✅ Exception handling
 
 ### Tools & Workflows
@@ -173,7 +152,7 @@ python sys_dashboard.py
 
 | Category | Tools |
 |----------|-------|
-| **Languages** | Python 3.x, Java |
+| **Languages** | Python 3.x |
 | **Editors** | Visual Studio Code (VS Code) |
 | **Version Control** | Git & GitHub |
 | **Visualization** | Mermaid.js (for diagrams) |
@@ -185,22 +164,16 @@ python sys_dashboard.py
 
 ### For Beginners Learning from This Repo:
 
-1. **Start with Java notes** (`Java-Basics/raw_notes/`) for theoretical foundations
-2. **Move to Python scripts** (`Python-Basics/`) for hands-on practice
-3. **Study the code** - Review how problems are solved and patterns are used
-4. **Experiment** - Modify scripts and observe the results
-5. **Try similar projects** - Build your own variations
+1. **Start with Python scripts** (`Python-Basics/`) for hands-on practice
+2. **Study the code** - Review how problems are solved and patterns are used
+3. **Experiment** - Modify scripts and observe the results
+4. **Try similar projects** - Build your own variations
 
 ### To Use Individual Scripts:
 
 ```bash
 # Run Python script
 python Python-Basics/goal_tracker.py
-
-# Compile Java code
-cd Java-Basics/code_practice
-javac Main.java
-java Main
 ```
 
 ---
@@ -232,7 +205,7 @@ This repository follows **conventional commits** for clear and organized history
 
 Built with ❤️ as part of my continuous learning journey in programming. This repository serves as both a personal knowledge base and a portfolio of foundational skills.
 
-**Last Updated:** June 2026
+**Last Updated:** August 2026
 
 ---
 
