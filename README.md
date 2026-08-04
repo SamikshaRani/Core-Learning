@@ -1,7 +1,7 @@
 # 🚀 Core-Learning Hub
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Welcome+to+Samiksha's+Hub!;Continuous+Learning;Building+Str[...]
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Welcome+to+Samiksha's+Hub!;Continuous+Learning;Building+Strong+Foundations!" alt="Typing animation">
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)](https://www.python.org/)
@@ -9,7 +9,7 @@
 [![Git](https://img.shields.io/badge/Git-Version%20Control-red?style=flat-square&logo=git)](https://git-scm.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-Welcome to my personal learning repository! This workspace documents my journey through foundational programming concepts, hands-on coding practice, and utility script development. It's a structur[...]
+Welcome to my personal learning repository! This workspace documents my journey through foundational programming concepts, hands-on coding practice, and utility script development. It's a structured collection of projects in **Python** and **Java**, demonstrating core programming principles and best practices.
 
 ---
 
@@ -18,10 +18,12 @@ Welcome to my personal learning repository! This workspace documents my journey 
 - [Quick Start](#quick-start)
 - [Repository Structure](#-repository-structure)
 - [Key Projects](#-key-projects)
+- [Python Projects](#-python-projects)
+- [Java Projects](#-java-projects)
 - [Skills & Learning Outcomes](#-skills--learning-outcomes)
 - [Tech Stack](#-tech-stack)
-- [Getting Started](#getting-started)
 - [Commit Philosophy](#-git-commit-philosophy)
+- [About](#-about)
 
 ---
 
@@ -29,12 +31,28 @@ Welcome to my personal learning repository! This workspace documents my journey 
 
 ### Prerequisites
 - **Python 3.7+** (for Python scripts)
+- **Java 8+** (for Java programs)
 - **Git** (for version control)
 
 ### Clone the Repository
 ```bash
 git clone https://github.com/SamikshaRani/Core-Learning.git
 cd Core-Learning
+```
+
+### Run Individual Scripts
+
+**Python:**
+```bash
+cd Python-Basics
+python goal_tracker.py
+```
+
+**Java:**
+```bash
+cd Java-Basics
+javac YourProgram.java
+java YourProgram
 ```
 
 ---
@@ -45,14 +63,20 @@ cd Core-Learning
 Core-Learning/
 │
 ├── Python-Basics/
-│   ├── goal_tracker.py     # Goal management dashboard
-│   ├── secret_vault.py     # Secure data management tool
-│   ├── sys_dashboard.py    # System health monitor
-│   ├── calculator.py       # Interactive calculator
-│   ├── guess_game.py       # Number guessing game
-│   └── my_goals.txt        # Persistent goal storage
+│   ├── goal_tracker.py       # Goal management dashboard
+│   ├── secret_vault.py       # Secure data management tool
+│   ├── sys_dashboard.py      # System health monitor
+│   ├── calculator.py         # Interactive calculator
+│   ├── guess_game.py         # Number guessing game
+│   └── my_goals.txt          # Persistent goal storage
 │
-└── README.md               # This file
+├── Java-Basics/
+│   ├── BasicPrograms.java    # Core Java fundamentals
+│   ├── OOP/                  # Object-oriented programming examples
+│   └── DataStructures/       # Collections and data structure practice
+│
+├── LICENSE                   # MIT License
+└── README.md                 # This file
 ```
 
 ---
@@ -125,6 +149,34 @@ python sys_dashboard.py
 
 ---
 
+## 🐍 Python Projects
+
+All Python projects are located in the `Python-Basics/` directory and focus on foundational concepts:
+
+| Project | Concepts | Difficulty |
+|---------|----------|-----------|
+| Goal Tracker | File I/O, Data Structures | Beginner |
+| Secret Vault | Authentication, Exception Handling | Beginner-Intermediate |
+| System Dashboard | APIs, Real-time Data | Intermediate |
+| Calculator | Arithmetic, Control Flow | Beginner |
+| Guess Game | Loops, Randomization | Beginner |
+
+---
+
+## ☕ Java Projects
+
+Java programs are located in the `Java-Basics/` directory, covering:
+
+| Category | Topics |
+|----------|--------|
+| **Basic Programs** | Syntax, Data Types, Control Flow |
+| **OOP** | Classes, Objects, Inheritance, Polymorphism |
+| **Data Structures** | Arrays, Lists, Maps, Sets |
+
+*Note: Java projects are actively being developed. Check back for updates!*
+
+---
+
 ## 🎓 Skills & Learning Outcomes
 
 ### Programming Concepts
@@ -133,6 +185,7 @@ python sys_dashboard.py
 - ✅ Functions & modularity
 - ✅ File I/O and data persistence
 - ✅ Exception handling
+- ✅ Object-oriented programming (classes, inheritance, polymorphism)
 
 ### Tools & Workflows
 - ✅ Git version control (conventional commits)
@@ -152,29 +205,10 @@ python sys_dashboard.py
 
 | Category | Tools |
 |----------|-------|
-| **Languages** | Python 3.x |
+| **Languages** | Python 3.x, Java 8+ |
 | **Editors** | Visual Studio Code (VS Code) |
 | **Version Control** | Git & GitHub |
-| **Visualization** | Mermaid.js (for diagrams) |
 | **Documentation** | Markdown |
-
----
-
-## Getting Started
-
-### For Beginners Learning from This Repo:
-
-1. **Start with Python scripts** (`Python-Basics/`) for hands-on practice
-2. **Study the code** - Review how problems are solved and patterns are used
-3. **Experiment** - Modify scripts and observe the results
-4. **Try similar projects** - Build your own variations
-
-### To Use Individual Scripts:
-
-```bash
-# Run Python script
-python Python-Basics/goal_tracker.py
-```
 
 ---
 
@@ -203,9 +237,15 @@ This repository follows **conventional commits** for clear and organized history
 
 ## 🤝 About
 
-Built with ❤️ as part of my continuous learning journey in programming. This repository serves as both a personal knowledge base and a portfolio of foundational skills.
+Built with ❤️ as part of my continuous learning journey in programming. This repository serves as both a personal knowledge base and a portfolio of foundational skills in Python and Java.
 
 **Last Updated:** August 2026
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
